@@ -12,3 +12,15 @@ ssh-keygen -t ed25519 -C “email”
 pbcopy < ~/.ssh/id_ed25519.pub 
 ```
 - Paste it on GitHub
+
+## Update local config file
+Ensure your git config (global, local) are what you want:
+```
+git config --global --list
+```
+
+Add your email and username to the local config if needed:
+```
+git config --local user.name "John Doe"
+git config --local user.email YOUREMAIL
+``` 
