@@ -23,4 +23,5 @@ Add your email and username to the local config if needed:
 ```
 git config --local user.name "John Doe"
 git config --local user.email YOUREMAIL
-``` 
+```
+ 
